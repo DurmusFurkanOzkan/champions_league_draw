@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main{
+    
+    background-image: url(./images/maxresdefault.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__top{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.main__top--ball:hover{
+    animation: move 2s infinite linear;
+    cursor: pointer;
+}
+
+
+@keyframes move {
+    from {
+        transform: rotate(0deg);
+        
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
