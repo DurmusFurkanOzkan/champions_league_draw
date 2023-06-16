@@ -167,25 +167,28 @@ const arrayWent = (groups) =>{
   
   tempGroups = JSON.parse(JSON.stringify(groups));
   for (let i = 8; i >= 1; i--) {
-    const mainDiv=document.createElement("div");
+    
+      const mainDiv=document.createElement("div");
     mainDiv.className="col-10 col-sm-6 col-lg-3 mainDivClass";
     const mainDivP=document.createElement("p");
     mainDivP.textContent=`GROUP ${String.fromCharCode(73-i)}`;
     mainDivP.className="mainDivP";
     mainDivP.style.color="#63ABCC";
     mainDiv.appendChild(mainDivP);
-    tempGroups.map((group,j)=>{
-        
+  
+   
+      tempGroups.map((group,j)=>{
         const teamDiv=document.createElement("div");
         const teamP=document.createElement("h6");
         const teamImg=document.createElement("img");
         
-        teamDiv.className="d-flex teamDiv align-items-center gap-2"
+        teamDiv.className="d-flex  teamDiv align-items-center gap-2"
         teamP.className="teamP mb-0"
         teamDiv.appendChild(teamImg);
 
         teamDiv.appendChild(teamP);
         let rnd = Math.floor(Math.random()*i);
+
         teamP.textContent=group.teams[rnd].name.toUpperCase();
         teamImg.src=group.teams[rnd].logo;
         teamImg.style.width="20px";
@@ -193,9 +196,18 @@ const arrayWent = (groups) =>{
           teamDiv.style.borderBottom="1px solid rgba(255, 255, 255, .1)";
         }
         group.teams.splice(rnd,1);
-        mainDiv.appendChild(teamDiv);
-    })
 
+        
+          mainDiv.appendChild(teamDiv);
+        
+       
+    })
+    
+    console.log(i)
     mainTeamsDiv.appendChild(mainDiv);
+
+  
+    
+
 }
 }
