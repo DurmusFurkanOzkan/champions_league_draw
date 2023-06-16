@@ -1,181 +1,201 @@
 const groups = [
-    {
-      groupName: "Group A",
-      teams: [
-        {
-          name: "Manchester United",
-          logo: "path/to/manchester-united-logo.png"
-        },
-        {
-          name: "Bayern Munich",
-          logo: "path/to/bayern-munich-logo.png"
-        },
-        {
-          name: "Real Madrid",
-          logo: "path/to/real-madrid-logo.png"
-        },
-        {
-          name: "Barcelona",
-          logo: "path/to/barcelona-logo.png"
-        },
-        {
-          name: "Liverpool",
-          logo: "path/to/liverpool-logo.png"
-        },
-        {
-          name: "Paris Saint-Germain",
-          logo: "path/to/psg-logo.png"
-        },
-        {
-          name: "Juventus",
-          logo: "path/to/juventus-logo.png"
-        },
-        {
-          name: "Manchester City",
-          logo: "path/to/manchester-city-logo.png"
-        }
-      ]
-    },
-    {
-      groupName: "Group B",
-      teams: [
-        {
-          name: "Chelsea",
-          logo: "path/to/chelsea-logo.png"
-        },
-        {
-          name: "Atletico Madrid",
-          logo: "path/to/atletico-madrid-logo.png"
-        },
-        {
-          name: "Borussia Dortmund",
-          logo: "path/to/borussia-dortmund-logo.png"
-        },
-        {
-          name: "Inter Milan",
-          logo: "path/to/inter-milan-logo.png"
-        },
-        {
-          name: "Ajax",
-          logo: "path/to/ajax-logo.png"
-        },
-        {
-          name: "AC Milan",
-          logo: "path/to/ac-milan-logo.png"
-        },
-        {
-          name: "Olympique Marseille",
-          logo: "path/to/olympique-marseille-logo.png"
-        },
-        {
-          name: "RB Leipzig",
-          logo: "path/to/rb-leipzig-logo.png"
-        }
-      ]
-    },
-    {
-      groupName: "Group C",
-      teams: [
-        {
-          name: "Sevilla",
-          logo: "path/to/sevilla-logo.png"
-        },
-        {
-          name: "Porto",
-          logo: "path/to/porto-logo.png"
-        },
-        {
-          name: "Zenit Saint Petersburg",
-          logo: "path/to/zenit-logo.png"
-        },
-        {
-          name: "Lazio",
-          logo: "path/to/lazio-logo.png"
-        },
-        {
-          name: "Atalanta",
-          logo: "path/to/atalanta-logo.png"
-        },
-        {
-          name: "Borussia Monchengladbach",
-          logo: "path/to/borussia-monchengladbach-logo.png"
-        },
-        {
-          name: "Shakhtar Donetsk",
-          logo: "path/to/shakhtar-donetsk-logo.png"
-        },
-        {
-          name: "Olympiacos",
-          logo: "path/to/olympiacos-logo.png"
-        }
-      ]
-    },
-    {
-      groupName: "Group D",
-      teams: [
-        {
-          name: "Ajax",
-          logo: "path/to/ajax-logo.png"
-        },
-        {
-          name: "Atalanta",
-          logo: "path/to/atalanta-logo.png"
-        },
-        {
-          name: "Lazio",
-          logo: "path/to/lazio-logo.png"
-        },
-        {
-          name: "Borussia Monchengladbach",
-          logo: "path/to/borussia-monchengladbach-logo.png"
-        },
-        {
-          name: "Shakhtar Donetsk",
-          logo: "path/to/shakhtar-donetsk-logo.png"
-        },
-        {
-          name: "Olympiacos",
-          logo: "path/to/olympiacos-logo.png"
-        },
-        {
-          name: "Club Brugge",
-          logo: "path/to/club-brugge-logo.png"
-        },
-        {
-          name: "Midtjylland",
-          logo: "path/to/midtjylland-logo.png"
-        }
-      ]
-    },
-    // Diğer grupları buraya ekleyebilirsiniz
-  ];
+  {
+    groupName: "Group A",
+    teams: [
+      {
+        name: "Manchester United",
+        logo: "./images/manchester-united-logo.svg"
+      },
+      {
+        name: "Bayern Munich",
+        logo: "./images/bayern_munich.svg"
+      },
+      {
+        name: "Real Madrid",
+        logo: "./images/real.svg"
+      },
+      {
+        name: "Barcelona",
+        logo: "./images/barcelona.svg"
+      },
+      {
+        name: "Liverpool",
+        logo: "./images/liverpool.svg"
+      },
+      {
+        name: "Paris Saint-Germain",
+        logo: "./images/paris.svg"
+      },
+      {
+        name: "Juventus",
+        logo: "./images/juventus.svg"
+      },
+      {
+        name: "Manchester City",
+        logo: "./images/manchester_city.svg"
+      }
+    ]
+  },
+  {
+    groupName: "Group B",
+    teams: [
+      {
+        name: "Chelsea",
+        logo: "./images/chelsea-logo-vector.png"
+      },
+      {
+        name: "Atletico Madrid",
+        logo: "./images/atletico.svg"
+      },
+      {
+        name: "Borussia Dortmund",
+        logo: "./images/dortmund.svg"
+      },
+      {
+        name: "Inter",
+        logo: "./images/inter.svg"
+      },
+      {
+        name: "Lille",
+        logo: "./images/lille.svg"
+      },
+      {
+        name: "AC Milan",
+        logo: "./images/milan.svg"
+      },
+      {
+        name: "Olympique Marseille",
+        logo: "./images/marseille.svg"
+      },
+      {
+        name: "FC Copenhangen",
+        logo: "./images/copenhagen.svg"
+      }
+    ]
+  },
+  {
+    groupName: "Group C",
+    teams: [
+      {
+        name: "Sevilla",
+        logo: "./images/sevilla.svg"
+      },
+      {
+        name: "Lyon",
+        logo: "./images/lyon.svg"
+      },
+      {
+        name: "Zenit Saint Petersburg",
+        logo: "./images/zenit.svg"
+      },
+      {
+        name: "Celtic",
+        logo: "./images/celtic.svg"
+      },
+      {
+        name: "Arsenal",
+        logo: "./images/arsenal.svg"
+      },
+      {
+        name: "Borussia Monchengladbach",
+        logo: "./images/monchengladbach.svg"
+      },
+      {
+        name: "Frankfurt",
+        logo: "./images/frankfurt.svg"
+      },
+      {
+        name: "Olympiacos",
+        logo: "./images/olympiacos.svg"
+      }
+    ]
+  },
+  {
+    groupName: "Group D",
+    teams: [
+      {
+        name: "Sporting CP",
+        logo: "./images/sporting.svg"
+      },
+      {
+        name: "Bayer 04 Leverkusen",
+        logo: "./images/leverkusen.svg"
+      },
+      {
+        name: "Galatasaray",
+        logo: "./images/gala.svg"
+      },
+      {
+        name: "Club Brugge",
+        logo: "./images/brugge.svg"
+      },
+      {
+        name: "FC Salzburg",
+        logo: "./images/salzburg.svg"
+      },
+      {
+        name: "Benfica",
+        logo: "./images/benfica.svg"
+      },
+      {
+        name: "Rangers",
+        logo: "./images/rangers.svg"
+      },
+      {
+        name: "Dynamo Kyiv",
+        logo: "./images/dynamo.svg"
+      }
+    ]
+  },
+];
 
 const iconClickImg = document.querySelector(".main__top--ball");
 const mainTeamsDiv = document.querySelector(".main__teams");
 
 
 iconClickImg.addEventListener("click", () =>{
-    for (let i = 7; i >= 0; i--) {
-        const mainDiv=document.createElement("div");
-        mainDiv.className="col-3 gap-5";
-        mainDiv.textContent=`GROUP ${String.fromCharCode(72-i)}`;
-        groups.map((group)=>{
-            const teamDiv=document.createElement("div");
-            const teamP=document.createElement("p");
-            const teamImg=document.createElement("img");
-            
-            teamDiv.className="d-flex align-items-baseline h-25"
-            teamDiv.appendChild(teamImg);
-            teamDiv.appendChild(teamP);
-
-            let rnd = Math.floor(Math.random()*i);
-            teamP.textContent=group.teams[rnd].name;
-            group.teams.splice(rnd,1);
-            mainDiv.appendChild(teamDiv);
-            console.log(rnd)
-        })
-
-       
-        mainTeamsDiv.appendChild(mainDiv);
+    if(mainTeamsDiv.firstChild){
+      mainTeamsDiv.innerHTML="";
     }
+    arrayWent(groups);
+    
+   
 })
+
+
+const arrayWent = (groups) =>{
+  
+  tempGroups = JSON.parse(JSON.stringify(groups));
+  for (let i = 8; i >= 1; i--) {
+    const mainDiv=document.createElement("div");
+    mainDiv.className="col-10 col-sm-6 col-lg-3 mainDivClass";
+    const mainDivP=document.createElement("p");
+    mainDivP.textContent=`GROUP ${String.fromCharCode(73-i)}`;
+    mainDivP.className="mainDivP";
+    mainDivP.style.color="#63ABCC";
+    mainDiv.appendChild(mainDivP);
+    tempGroups.map((group,j)=>{
+        
+        const teamDiv=document.createElement("div");
+        const teamP=document.createElement("h6");
+        const teamImg=document.createElement("img");
+        
+        teamDiv.className="d-flex teamDiv align-items-center gap-2"
+        teamP.className="teamP mb-0"
+        teamDiv.appendChild(teamImg);
+
+        teamDiv.appendChild(teamP);
+        let rnd = Math.floor(Math.random()*i);
+        teamP.textContent=group.teams[rnd].name.toUpperCase();
+        teamImg.src=group.teams[rnd].logo;
+        teamImg.style.width="20px";
+        if(j!=3){
+          teamDiv.style.borderBottom="1px solid rgba(255, 255, 255, .1)";
+        }
+        group.teams.splice(rnd,1);
+        mainDiv.appendChild(teamDiv);
+    })
+
+    mainTeamsDiv.appendChild(mainDiv);
+}
+}
