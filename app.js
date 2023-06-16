@@ -151,7 +151,7 @@ const groups = [
 
 const iconClickImg = document.querySelector(".main__top--ball");
 const mainTeamsDiv = document.querySelector(".main__teams");
-
+const main = document.querySelector(".main");
 
 iconClickImg.addEventListener("click", () =>{
     if(mainTeamsDiv.firstChild){
@@ -161,6 +161,14 @@ iconClickImg.addEventListener("click", () =>{
     
    
 })
+
+main.addEventListener("click",(e) =>{
+    if(e.target.classList.contains("main__top--ball")){
+      main.style.height="auto";
+    }
+    
+})
+
 
 
 const arrayWent = (groups) =>{

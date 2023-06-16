@@ -6,7 +6,7 @@
 }
 
 .main{
-    
+    height: 100vh;
     background-image: url(./images/maxresdefault.jpg);
     overflow: auto;
     background-repeat: no-repeat;
@@ -78,6 +78,6 @@
 
 @media screen and (min-width : 1000px) {
     .main{
-        height: 100vh;
+        height: 100vh !important;
     }
 }
