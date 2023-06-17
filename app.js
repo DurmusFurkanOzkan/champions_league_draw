@@ -149,6 +149,10 @@ const groups = [
   },
 ];
 
+
+
+
+
 const iconClickImg = document.querySelector(".main__top--ball");
 const mainTeamsDiv = document.querySelector(".main__teams");
 const main = document.querySelector(".main");
@@ -158,16 +162,20 @@ iconClickImg.addEventListener("click", () =>{
       mainTeamsDiv.innerHTML="";
     }
     arrayWent(groups);
-    
+   
+  
    
 })
 
 main.addEventListener("click",(e) =>{
     if(e.target.classList.contains("main__top--ball")){
       main.style.height="auto";
+      document.getElementById("my_audio").play();
+
     }
-    
+  
 })
+
 
 
 
